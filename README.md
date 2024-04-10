@@ -5,6 +5,7 @@ This project is a mockup of a simple office hours set up form. It allows the use
 ## Challenges
 - Styling of the layout
 - Selection slots aren't emailed to the user email when submitted
+- Values need to be properly posted and stored when selected
 
 ### index.html
 ![image](https://github.com/vickaib/Calendar/assets/91156588/fb03bf66-0274-4349-837f-63e47ca8ab06)
