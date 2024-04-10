@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    font-weight:100;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.datelabel {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.buttonStyle {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.buttonDivider {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+.otherMonth {
+    color: lightgray;
+}
+
+.divTableSetup{
+	display: table;
+	width: 100%;
+    margin-top: 50px;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+} 
+
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell {
+	border: 1px solid white;
+    background-color: #ebf6fa;
+    height: 100px;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.divTableCellSelect {
+    display: flex;
+	border: 1px solid white;
+    background-color: #ebf6fa;
+	display: table-cell;
+    height: 100px;
+	padding: 50px 0px 50px 20px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.divTableCellHead {
+	border: 1px solid white;
+    background-color: #ebf6fa;
+	display: table-cell;
+    height: 20px;
+	padding: 10px 0px 10px 20px;
+}
+
+.divTableCellOther {
+    border: 1px solid white;
+    background-color: lightgray;
+	display: table-cell;
+    height: 60px;
+	padding: 3px 10px;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
